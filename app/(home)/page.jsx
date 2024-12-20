@@ -1,5 +1,5 @@
 /* eslint react/no-unescaped-entities: 0 */ // --> OFF
-
+// //
 "use client";
 import Hero from "@/components/home/Hero";
 import { motion } from "framer-motion";
@@ -470,13 +470,13 @@ export default function Home() {
             </div> */}
           </Link>
         </div>
-        <div className="justify-center items-center flex">
+        {/* <div className="justify-center items-center flex">
           <button className="bg-themeOrange p-3 px-16 rounded-full text-white font-semibold">
             Explore More Cities
           </button>
-        </div>
+        </div> */}
       </div>
-      <div className="p-16 flex flex-col justify-center items-center space-y-6  max-lg:p-10 max-md:p-6 max-sm:p-3">
+      {/* <div className="p-16 flex flex-col justify-center items-center space-y-6  max-lg:p-10 max-md:p-6 max-sm:p-3">
         <div className="bg-[#FB654230] text-black flex flex-col justify-center items-center gap-16 p-6 rounded-xl">
           <div className="text-xl font-bold text-center">Customer Reviews</div>
           <div className="text-themeOrange">
@@ -507,7 +507,7 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="p-16 flex flex-col justify-center items-center space-y-6  max-lg:p-10 max-md:p-6 max-sm:p-3 ">
         <h2 className="text-3xl font-bold  mb-8 max-md:w-full max-md:text-left">
           FAQs

@@ -19,9 +19,7 @@ export default function Journey() {
     >
       <div className="text-2xl">Your Bangalore Relocation Journey</div>
       <div className="text-lg font-semibold text-center w-3/4 max-md:w-full max-md:text-base">
-        Navigating a new country can be daunting. SCOUT provides comprehensive
-        in-country assistance to ensure your transition to Bangalore is seamless
-        and stress-free.
+      Foreign nationals, unless from the exempt countries, coming for the purpose of employment, will need an employment visa (EV). Dependents accompanying foreign nationals will need dependents visa (XV).
       </div>
       <div className="flex w-full">
         <div className="w-1/4 max-lg:hidden">
@@ -43,47 +41,46 @@ export default function Journey() {
             onSwiper={(swiper) => console.log(swiper)}
           >
             <SwiperSlide>
-              <div className=" bg-themeOrange rounded-xl p-3 h-72 max-lg:h-full max-lg:justify-center flex flex-col justify-center items-center text-white gap-3">
-                <div className="text-xl text-white font-semibold ">
-                  Understanding the City
+              <div className="bg-themeOrange rounded-xl p-3 h-72 max-lg:h-full max-lg:justify-center flex flex-col justify-center items-center text-white gap-3">
+                <div className="text-xl text-white font-semibold">
+                  Employment Visa (EV)
                 </div>
                 <div>
-                  Get insights into Bangalore's cost of living, housing
-                  standards, schooling options, and entertainment. Learn about
-                  payroll, taxes, and other local implications for a smooth
-                  transition.
+              The employment visa application is submitted to the Indian diplomatic post in the country of nationality or residence for 
+              at least two years. The Indian diplomatic will issue an employment visa for 1 year ( certain nationals are issued longer employment visas). 
+              This allows the foreign national to travel to India.<br></br>
+              Time Line : 1 -12 weeks
+              </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="bg-themeOrange rounded-xl p-3 h-72 max-lg:h-full max-lg:justify-center flex flex-col justify-center items-center text-white gap-3">
+                <div className="text-xl text-white font-semibold">
+                  PAN Card Application
+                </div>
+                <div>
+                  Upon entry to India, the foreign national has to apply for a PAN ( Permanent Account Number) ( Indian income tax number). 
+                  <br></br> 
+                  Time Line: 2-4 weeks
+                  </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="bg-themeOrange rounded-xl p-3 h-72 max-lg:h-full max-lg:justify-center flex flex-col justify-center items-center text-white gap-3">
+                <div className="text-xl text-white font-semibold">
+                  Residence Permit
+                </div>
+                <div>
+               Within 14 days of arrival into India, the foreign national has to apply for a residence permit with the  jurisdictional foreigner’s 
+               registration office. The jurisdictional foreigner’s registration office will issue a residence permit for 1 year after evaluating the documents. 
+                 <br></br>
+                 Time Line : 2-5 Business Days
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className=" bg-themeOrange rounded-xl p-3 h-72 max-lg:h-full max-lg:justify-center flex flex-col justify-center items-center text-white gap-3">
-                <div className="text-xl text-white font-semibold ">
-                  Understanding the City
-                </div>
-                <div>
-                  Get insights into Bangalore's cost of living, housing
-                  standards, schooling options, and entertainment. Learn about
-                  payroll, taxes, and other local implications for a smooth
-                  transition.
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className=" bg-themeOrange rounded-xl p-3 h-72 max-lg:h-full max-lg:justify-center flex flex-col justify-center items-center text-white gap-3">
-                <div className="text-xl text-white font-semibold ">
-                  Understanding the City
-                </div>
-                <div>
-                  Get insights into Bangalore's cost of living, housing
-                  standards, schooling options, and entertainment. Learn about
-                  payroll, taxes, and other local implications for a smooth
-                  transition.
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className=" bg-themeOrange rounded-xl p-3 h-72 max-lg:h-full max-lg:justify-center flex flex-col justify-center items-center text-white gap-3">
-                <div className="text-xl text-white font-semibold ">
+              <div className="bg-themeOrange rounded-xl p-3 h-72 max-lg:h-full max-lg:justify-center flex flex-col justify-center items-center text-white gap-3">
+                <div className="text-xl text-white font-semibold">
                   Understanding the City
                 </div>
                 <div>

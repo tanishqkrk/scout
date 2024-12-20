@@ -500,6 +500,12 @@ export default function Dubai() {
             </Swiper>
           </div>
         </div>
+        <Link
+          href={"/Life_in_dubai"}
+          className="bg-themeOrange p-3 rounded-full px-8 max-md:p-1 max-md:w-full max-md:text-center max-md:flex max-md:justify-center text-white"
+        >
+          <Text delay={0.8} text={"Explore"} ></Text>
+        </Link>
       </div>
       <div className="p-16 max-lg:p-10 max-md:p-6 space-y-6 max-sm:p-3 max-lg:space-y-6 hidden">
         <div className="text-3xl font-bold text-center">
